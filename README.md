@@ -3,7 +3,7 @@
 This is a fork of aruco project
 See http://www.uco.es/investiga/grupos/ava/node/26 and http://sourceforge.net/projects/aruco/
 
-Basicly aruco makes following:
+Basically aruco makes following:
 
 * detects a marker on image
 * reads a bit string decoded by black and white squares
