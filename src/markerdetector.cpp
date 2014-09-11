@@ -197,7 +197,7 @@ void MarkerDetector::detect ( const  cv::Mat &input,vector<Marker> &detectedMark
         if (resW) {
              int nRotations;
             int id= ( *markerIdDetector_ptrfunc ) ( canonicalMarker,nRotations );
-            if ( id!=-1 )
+            if ( id!=-1 && nRotations != -1)
             {
  		if(_cornerMethod==LINES) // make LINES refinement before lose contour points
 		  refineCandidateLines( MarkerCanditates[i], camMatrix, distCoeff ); 
